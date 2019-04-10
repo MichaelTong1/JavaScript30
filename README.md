@@ -1,2 +1,2 @@
 # JavaScript30
-My progression with JavaScript30 coding challenge
+My progression with the JavaScript30 coding challenge
