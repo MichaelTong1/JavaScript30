@@ -60,12 +60,25 @@
 <script>
   // Add an event listener to listen every time you press a key
 
-  window.addEventListener('keydown', function (e) {
+
+  function playSound(e) {
     const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
-  audio.currentTime = 0;
+    const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
+    if (!audio) return; // stop the function from running
+    audio.currentTime = 0; // start from beginning
     audio.play();
-    console.log(audio);
-  });
+    key.classList.add('playing'); // add the style 
+  }
+
+  function removeTransition(trans) {
+    if(trans.propertyName !== 'transform') return; // skip if not transform
+    console.log(trans.propertyName); // end of transform, log this (which is transform) 
+    this.classList.remove('playing'); // removes the playing style  
+  }
+
+  const keys = document.querySelectorAll('.key'); // gives an array of every key 
+  keys.forEach(key => key.addEventListener('transitionend', removeTransition)); // when transition ends, it will remove 
+  window.addEventListener('keydown', playSound);
 
 </script>
 
