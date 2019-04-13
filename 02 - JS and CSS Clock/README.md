@@ -7,7 +7,7 @@ Implement a simple clock.
 ### Achieved
 
 * Transformation practice 
-** Changing where the rotation starts: <code>transform-origin: 100%;</code>
+<br>**    Changing where the rotation starts: <code>transform-origin: 100%;</code>
 ** Rotation: <code>transform: rotate(90deg);</code>
 ** To make a 'snappy' transition: <code>transition: all 0.05s; transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 * JavaScript time 
