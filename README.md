@@ -1,5 +1,5 @@
 # JavaScript30
-This is a 30 day plain JavaScript course. More information can be found [here](https://javascript30.com/)
+This is a 30 day plain JavaScript course. More information can be found [here](https://javascript30.com/).
 
 * [Day 1](https://github.com/MichaelTong1/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit)
 * [Day 2](https://github.com/MichaelTong1/JavaScript30/tree/master/02%20-%20JS%20and%20CSS%20Clock)
