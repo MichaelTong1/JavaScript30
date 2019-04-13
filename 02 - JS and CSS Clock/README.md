@@ -2,7 +2,7 @@
 
 ### Summary 
 
-Implement a simple clock.
+Implement a simple clock using rotations and the current JavaScript time. 
 
 ### Achieved
 
